@@ -140,6 +140,12 @@ h4.tipos {
   margin: 15px;
   flex: 1; /* Isso garante que as caixas ocupem o espaço disponível */
 }
+#tabela{
+display: flex;
+}
+.textoTabela{
+  padding: 10px;
+}
 
 strong{
   color:#330c05;
