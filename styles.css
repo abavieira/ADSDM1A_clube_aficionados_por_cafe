@@ -1,3 +1,16 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(51, 12, 5, 1)), url('https://t4.ftcdn.net/jpg/06/15/47/39/360_F_615473969_OQH56joXaYscLjIihTYSLvBzwm5VAdTa.jpg');
+  background-size:cover;
+  /* Para ajustar a imagem para cobrir toda a área do corpo */
+  background-position: top;
+  /* Para centralizar a imagem */
+  background-repeat: no-repeat;
+  /* Para evitar a repetição da imagem */
+  background-color: #330c05;
+  color: #ffdba8;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +19,8 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   background-color: #000000;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(51, 12, 5, 1));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(51, 12, 5, 0));
+  padding-top: 25px;
 }
 
 nav a {
@@ -21,26 +35,13 @@ nav a {
 }
 
 nav a[aria-current='page'] {
-  color: #330c05;
-  background-color:  #ffdba8;
+  color:#ffdba8;
+  background-color:  #000000;
 }
 * {
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(51, 12, 5, 1)), url('coffe8.jpg');
-  background-size: contain;
-  /* Para ajustar a imagem para cobrir toda a área do corpo */
-  background-position: top;
-  /* Para centralizar a imagem */
-  background-repeat: no-repeat;
-  /* Para evitar a repetição da imagem */
-  background-color: #330c05;
-  color: #ffdba8;
-}
 
 h1 {
   font-family: "Dancing Script", cursive;
@@ -119,6 +120,22 @@ h4.tipos {
   /* Mostra o texto quando a classe 'mostrar' é aplicada */
   opacity: 1;
   /* Define a opacidade como 1 quando a classe 'mostrar' é aplicada */
+}
+
+/**/
+
+#caixaDcaixa {
+  display: flex; /*p ficar um do lado do outro */
+  justify-content: space-between; /* Isso garante que os elementos fiquem espaçados uniformemente */
+}
+
+.caixa {
+  margin: 15px;
+  flex: 1; /* Isso garante que as caixas ocupem o espaço disponível */
+}
+
+strong{
+  color:#330c05;
 }
 
 
