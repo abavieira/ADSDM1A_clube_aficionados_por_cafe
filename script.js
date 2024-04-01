@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Para cada elemento h4, adiciona um evento de mouse
   h4Elements.forEach(function(h4) {
     // Adiciona um ouvinte de evento de mouse para o evento 'mouseover'
-    h4.addEventListener('mouseover', function() {
+    h4.addEventListener('mousemove', function() {
       // Seleciona o próximo elemento irmão com a classe 'texto'
       var textoElement = this.nextElementSibling;
   
@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
       textoElement.classList.add('mostrar');
     });
   
-    // Adiciona um ouvinte de evento de mouse para o evento 'mouseout'
-    h4.addEventListener('mouseout', function() {
-      // Seleciona o próximo elemento irmão com a classe 'texto'
-      var textoElement = this.nextElementSibling;
+        // Adiciona um ouvinte de evento de mouse para o evento 'mouseout'
+         h4.addEventListener('click', function() {
+        // Seleciona o próximo elemento irmão com a classe 'texto'
+        var textoElement = this.nextElementSibling;
   
       // Remove a classe 'mostrar' do elemento irmão
       textoElement.classList.remove('mostrar');

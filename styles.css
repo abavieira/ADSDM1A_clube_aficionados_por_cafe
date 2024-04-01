@@ -103,6 +103,7 @@ h4.tipos {
   font-family: "Chewy", system-ui;
   font-weight: 400;
   font-style: normal;
+  cursor: pointer; /* Mudar o cursor do mouse para uma mãozinha, indicando que é clicável */
 }
 
 .texto {
