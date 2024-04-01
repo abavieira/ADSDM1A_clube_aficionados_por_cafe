@@ -20,7 +20,7 @@ nav {
   gap: 0.5rem;
   background-color: #000000;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(51, 12, 5, 0));
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 nav a {
