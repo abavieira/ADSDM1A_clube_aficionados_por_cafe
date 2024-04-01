@@ -70,12 +70,17 @@ h1 {
 }
 
 .caixa {
+  
   background-color: #330c05;
   color: #ffdba8;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 25px;
   padding-top: 0px;
+}
+
+#caixaDcaixa{
+  width: 45%;
 }
 
 .tipos {
@@ -122,11 +127,12 @@ h4.tipos {
   /* Define a opacidade como 1 quando a classe 'mostrar' é aplicada */
 }
 
-/**/
-
-#caixaDcaixa {
+#conteudo {
   display: flex; /*p ficar um do lado do outro */
   justify-content: space-between; /* Isso garante que os elementos fiquem espaçados uniformemente */
+}
+#espacamento{
+  padding: 50px;
 }
 
 .caixa {
