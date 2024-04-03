@@ -24,6 +24,7 @@ h4Elements.forEach(function(h4) {
     textoElement.classList.add('mostrar');
   });
 
+
   h4.addEventListener('mouseout', function() {
     // Seleciona o próximo elemento irmão com a classe 'texto'
     var textoElement = this.nextElementSibling;

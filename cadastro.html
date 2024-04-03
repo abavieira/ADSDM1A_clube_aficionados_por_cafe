@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Clube do Café</title>
-    <script src="script.js"></script>
+    <title>Cadastro de Usuário - Sociedade do Café</title>
 
       <!-- fontes -->
   <link href="style.css" rel="stylesheet" type="text/css" />
@@ -37,31 +36,33 @@
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
 </head>
+<nav>
+    <a href="/index.html">Início</a>
+    <a href="/conteudo.html">Conteúdo</a>
+    <a href="/comunidade.html">Comunidade</a>
+    <a href="/login.html">Login</a>
+  </nav>
 <body>
-    <nav>
-        <a href="/index.html">Início</a>
-        <a href="/conteudo.html">Conteúdo</a>
-        <a href="/comunidade.html">Comunidade</a>
-        <a href="/login.html">Login</a>
-      </nav>
-
     <header>
-        <h1>Portal de Login - Clube do café</h1>
+        <h1>Cadastro de Usuário - coffe club</h1>
     </header>
     <main>
-        <form action="dashboard.html" method="post">
-            <label for="username">Usuário:</label><br>
-            <input type="text" id="username" name="username"><br>
+        <form action="cadastro_sucesso.html" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
             <label for="password">Senha:</label><br>
-            <input type="password" id="password" name="password"><br><br>
-            <input type="submit" value="Login">
-        </br>
-            <a href="/cadastro.html">Cadastre-se</a>
+            <input type="password" id="password" name="password" required><br>
+            <label for="confirm_password">Confirme a senha:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
+            <input type="submit" value="Cadastrar">
         </form>
 
+        <script src="script.js"></script>
     </main>
     <footer>
-        <p>&copy; 2024 Arte do café. Todos os direitos reservados.</p>
+        <p>&copy; 2024 Clube do café. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
