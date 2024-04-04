@@ -152,7 +152,7 @@ strong{
 }
 
 /*LOGIN*/
-#central{
+.central{
   background-color:#330c05;
   padding: 20px;
   width:fit-content;
