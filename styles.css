@@ -151,6 +151,17 @@ strong{
   color:#330c05;
 }
 
+/*LOGIN*/
+#central{
+  background-color:#330c05;
+  padding: 20px;
+  width:fit-content;
+  margin:auto;
+  margin-top: 50px; 
+}
+#botaoCadastro{
+  color:#ffdba8;
+}
 
 main {
   padding: 1rem;
