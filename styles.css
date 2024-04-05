@@ -10,6 +10,7 @@ body {
   /* Para evitar a repetição da imagem */
   background-color: #330c05;
   color: #ffdba8;
+  margin-top: 0px;
 }
 .logo {
   font-family: "Dancing Script", cursive;
@@ -19,6 +20,7 @@ body {
   padding-left: 20px;
   background-color: #000000;
   margin: 0px;
+  padding: 15px;
 }
 nav {
   display: flex;
