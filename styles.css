@@ -83,38 +83,46 @@ h2{
   font-weight: 200;
 }
 
+#rank{
+  background: linear-gradient(to bottom, rgba(51, 12, 5, 1), rgba(51, 12, 5, 0));
+  border-radius: 10px;
+  margin:30px;
+  padding: 10px;
+}
+
 /*BARRA RANKING*/
 #barra{
+ padding: 20px;
 
 }
 #barra1{
   background-color: #ffdba8;
   padding: 10px;
-  padding-left: 1000%;
+  width: 90%;
   margin: 10px;
 }
 #barra2{
   background-color: #ffdba8;
   padding: 10px;
-  padding-left: 900%;
+  width: 70%;
   margin: 10px;
 }
 #barra3{
   background-color: #ffdba8;
   padding: 10px;
-  padding-left: 600%;
+  width: 50%;
   margin: 10px;
 }
 #barra4{
   background-color: #ffdba8;
   padding: 10px;
-  padding-left: 400%;
+  width: 30%;
   margin: 10px;
 }
 #barra5{
   background-color: #ffdba8;
   padding: 10px;
-  padding-left: 200%;
+  width: 10%;
   margin: 10px;
 }
 
