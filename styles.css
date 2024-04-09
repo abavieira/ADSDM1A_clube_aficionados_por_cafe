@@ -82,7 +82,11 @@ h2{
   font-style: italic;
   font-weight: 200;
 }
-
+.barra{
+  background-color: #ffdba8;
+  padding: 10px;
+  padding-left: 100%;
+}
 .caixa {
   
   background-color: #330c05;
