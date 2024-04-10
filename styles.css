@@ -12,6 +12,9 @@ body {
   color: #ffdba8;
   margin-top: 0px;
 }
+.logos{
+  display: grid;
+}
 .logo {
   font-family: "Dancing Script", cursive;
   text-align:left;
@@ -87,7 +90,7 @@ h2{
   background: linear-gradient(to bottom, rgba(51, 12, 5, 1), rgba(51, 12, 5, 0));
   border-radius: 10px;
   margin:30px;
-  padding: 10px;
+  padding: 50px;
 }
 .cafeterias{
   height: 70px;
@@ -96,9 +99,13 @@ h2{
 }
 
 /*BARRA RANKING*/
+#rancking{
+  display: flex;
+  justify-content: center;
+}
 #barra{
  padding: 20px;
-
+ flex: auto;
 }
 #barra1{
   background-color: #ffdba8;
